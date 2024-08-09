@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+  }
+  
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #countdowns {
+    margin-top: 10px;
+  }
+  
+  .event {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    font-size: 14px; /* Medium-sized font */
+    line-height: 1.4; /* Line height for better readability */
+  }
+  
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  input[type="text"], input[type="date"] {
+    display: block;
+    width: calc(100% - 22px); /* Adjusted width with padding in mind */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc;
+    font-size: 14px; /* Medium font size for input fields */
+  }
+  
+  
